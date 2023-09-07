@@ -1,0 +1,189 @@
+<!--	Desinged by Adrián Rondón | 2023	-->
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Your Name Resume</title>
+		<style>
+		@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+		</style>
+		<style>
+			body{
+				font-family:Ubuntu;
+				color: grey;
+			}
+			a{
+				text-decoration: none;
+				color: #2E9AFE;
+			}
+			i{
+				color: #2E9AFE;
+			}
+			h1{
+				color: #2E9AFE;
+			}
+			#footer{
+				bottom: 0px;
+				right: 10px;
+				position: fixed;
+			}
+			#footer a{
+				color: navy;
+			}
+			#links{
+				border: 1px solid black;
+				background: rgba(0, 0, 0, 0.7);
+				padding: 10px;
+				border-radius: 25px;
+				color: white;
+			}
+			#links a{
+				color: white;
+			}
+			#links,#hobbies{
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+			}
+			#list {
+				padding-left: 30%;
+			}
+			#skills p span{
+				border-bottom: 1px solid grey;
+				margin: 10px;
+				color: #2E9AFE;
+				line-height: 2;
+			}
+			#skills{
+				float: left;
+				width: 25%;
+				border-right: 2px solid grey;
+				margin-right: 20px;
+			}
+			#summary{
+				line-height: 2;
+			}
+			#qr{
+				margin: auto;
+				width:193px;
+				height: 240px;
+			}
+			.pa{
+				line-height: 2;
+			}		
+		</style>
+		<link rel="stylesheet" href="faf/css/fontawesome.min.css" />   <link rel="stylesheet" href="faf/css/all.css" />
+	</head>
+	<body>
+		<h1>YOUR NAME</h1>
+		<h2>Full Stack Developer | Data Analytics | sysAdmin</h2>
+		<h3 id="links">
+		<span><i class="fa-solid fa-phone"></i> +XXX XX XXX XXX</span>
+		<span><i class="fa-regular fa-envelope"></i> e*********@gmail.com</span>
+		<span><a target="_blank" href="#"><i class="fa-brands fa-github"></i> ********</a></span>
+		<span><a target="_blank" href="#"><i class="fa-brands fa-linkedin"></i> ********</a></span>
+		<span><i class="fa-solid fa-location-dot"></i> City, Country</span>
+		</h3>
+		
+		<div id="skills">
+		<h1><i class="fa-solid fa-screwdriver-wrench"></i> Skills</h1>
+
+		<h4>Fronend</h4>
+		<p>
+		<span>HTML</span>
+		<span>CSS</span>
+		<span>JS</span>
+		<span>GIT</span>
+		<span>Express</span>
+		<span>React</span>
+		<span>Node.js</span>
+		</p>
+		
+		<h4>Backend</h4>
+		<p>
+		<span>PHP </span>
+		<span>Java</span>
+		<span>Python</span>
+		<span>SQL</span>
+		<span>MySQL</span>
+		<span>PostgreSql</span>
+		</p>
+		
+		<h4>Data Analytics</h4>
+		<p>
+		<span>Excel</span>
+		<span>Google Data Studio</span>
+		<span>Power Bi</span>
+		<span>Tableau</span>
+		</p>
+		
+		<h4>sysAdmin</h4>
+		<p>
+		<span>Ubuntu</span>
+		<span>Mint</span>
+		<span>Debian</span>
+		</p>
+
+		<h1 id="languages"><i class="fa-solid fa-language"></i> Languages</h1>
+		<h2>Spanish</h2>
+		<progress id="file" max="100" value="100"></progress>
+		<h2>English</h2>
+		<progress id="file" max="100" value="50"></progress>
+
+		<h1><i class="fa-solid fa-puzzle-piece"></i> Soft Skills</h1>
+		<h4>Adaptability</h4>
+		<h4>Creativity</h4>
+		<h4>Self-learning</h4>
+		<h4>Teamwork</h4>
+			
+		<h1><i class="fa-brands fa-firefox-browser"></i> Web Page</h1>
+		<img id="qr" src="frame.png" alt="QR of your web page">
+		</div>
+
+		
+
+		<div id="summary">
+		<h1><i class="fa-solid fa-briefcase"></i> Summary</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id ultricies sapien, in pretium ipsum. Integer nibh arcu, dignissim eu varius at, sagittis in ante. Sed faucibus leo eget elit ornare, at maximus leo malesuada. Nunc dolor lectus, rhoncus sed efficitur eu, semper in ligula. Fusce et justo leo. Suspendisse maximus lacus id pharetra rhoncus. Fusce sit amet tincidunt tellus. Maecenas nec ipsum augue. Pellentesque a feugiat augue, at fermentum orci. Ut interdum diam congue pretium vestibulum. Aliquam eget lobortis nunc. Praesent vitae tempor felis, quis venenatis libero..</p>
+		</div>	
+
+		<hr>
+		<h1><i class="fa-solid fa-graduation-cap"></i> Education</h1>
+		<h2>Institution</h2>
+		<h3>college career <span style="float: right;"><i class="fa-regular fa-calendar-days"></i> Currently</span></h3>
+		<h2>Institution</h2>
+		<h3><a target="_blank" href="#/">college career <i class="fa-solid fa-arrow-up-right-from-square"></i></a><span style="float: right;"><i class="fa-regular fa-calendar-days"></i> TIME</span></h3>
+		<h3><a target="_blank" href="#">college career <i class="fa-solid fa-arrow-up-right-from-square"></i></a><span style="float: right;"><i class="fa-regular fa-calendar-days"></i> TIME</span></h3>
+		
+		<hr>
+		<h1><i class="fa-solid fa-briefcase"></i> Experience</h1>
+		<h2>Job</h2>
+		<h3>Enterprise <span style="float: right;"><i class="fa-regular fa-calendar-days"></i> TIME - TIME</span></h3>
+		
+		<ul id="list">
+			
+		
+		<li><p class="pa">Responsibility.</p></li>
+		<li><p class="pa">Responsibility.</p></li>
+		<li><p class="pa">Responsibility.</p></li>
+		<li><p class="pa">Responsibility.</p></li>
+		<li><p class="pa">Responsibility.</p></li>
+		</ul>	
+		
+		<hr>
+		<h1><i class="fa-solid fa-person-hiking"></i> Hobbies and Interests</h1>
+		<h3 id="hobbies">
+		<span><i class="fa-regular fa-chess-knight"></i> Playing chess</span>
+
+		<span><i class="fa-solid fa-puzzle-piece"></i> Solving puzzles</span>
+		<span><i class="fa-regular fa-keyboard"></i> Coding</span>
+		<span><i class="fa-solid fa-book-open-reader"></i> Reading</span>
+
+		<p id="footer">
+			<a href="https://github.com/eidrwell/cv_template" target="_blank">
+				This <i>Resume</i> was made with <i>HTML/CSS</i> <i class="fa-solid fa-link"></i>
+			</a>
+		</p>
+	</body>
+</html>
